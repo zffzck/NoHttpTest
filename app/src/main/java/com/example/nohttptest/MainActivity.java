@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //获取布局
         setContentView(R.layout.activity_main);
         NoHttp.initialize(getApplication());   //NoHttp全局声明
         initView();        //初始化控件
